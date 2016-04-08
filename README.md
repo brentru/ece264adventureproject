@@ -1,2 +1,2 @@
 # ece264adventureproject
-c# adventure project collaboration for the ece264 class at umass dartmouth
+repo for umassd ece264 adventure project in c-sharp. collaborators: daustin,epires,codingbrent

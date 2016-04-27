@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!-- XML Import Data for ITEMS -->
+<items>
+  <itemdata>
+    <title>Sword</title>
+    <desc>a pointy stick</desc>
+    <qnt>3</qnt>
+    <weight>2</weight>
+  </itemdata>
+  <itemdata>
+    <title>Wire Cutter</title>
+    <desc>scissors designed to cut through cable</desc>
+    <qnt>1</qnt>
+    <weight>1</weight>
+  </itemdata>
+  <itemdata>
+    <title>Gun</title>
+    <desc>kills people</desc>
+    <qnt>1</qnt>
+    <weight>5</weight>
+  </itemdata>
+</items>

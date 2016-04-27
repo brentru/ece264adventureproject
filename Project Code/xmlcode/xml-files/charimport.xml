@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- XML Import Data for CHARACTER -->
+<chars>
+  <chardata>
+    <name>bob</name>
+    <position>242</position>
+    <weight>52</weight>
+  </chardata>
+</chars>

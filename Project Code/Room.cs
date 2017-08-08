@@ -4,18 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-<<<<<<< HEAD
-namespace adventureProject
-=======
-namespace TextAdventure
->>>>>>> pr/4
+namespace Adventure
+
 {
-    class Room
+    class Room:Inventory
     {
-        //Declare Variables for Room 
         private string title;
         private string desc;
-<<<<<<< HEAD
+
         private List<Item> items;
         private string[] exits;
 
@@ -27,17 +23,17 @@ namespace TextAdventure
         public Item GetItem(int i) { return items[i]; }
 
         public Room() { Title = ""; Desc = ""; items = null; exits = null; }
-=======
+
         public List<Item> roomInv;
+
+        private List<Item> inv;
+
         private string[] exits;
 
-        //Initialize constructors
-        public string Title
-        {
-            get { return title; }
-            set { title = value; }
-        }
+        public override List<Item> Inv { get { return inv; } set { inv = value; } }
+        public string Title { get { return title; } set { title = value; } }
         public string Desc { get { return desc; } set { desc = value; } }
+
 
         public bool AddItem(string item)
         {
@@ -57,23 +53,28 @@ namespace TextAdventure
         }
 
         public Room() { Title = ""; Desc = ""; roomInv = null; exits = null; }
->>>>>>> pr/4
+
+
+        public Room() { Title = ""; Desc = ""; inv = null; ; exits = null; }
+
 
         public Room(string ttl, string des, List<Item> itm, string[] ext)
         {
             Title = ttl;
             Desc = des;
-<<<<<<< HEAD
+
             items = itm;
             exits = ext;
         }
 
 
 
-=======
+
             roomInv = itm;
+
+            inv = itm;
+
             exits = ext;
         }
->>>>>>> pr/4
     }
 }
